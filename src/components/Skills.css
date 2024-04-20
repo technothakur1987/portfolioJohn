@@ -1,0 +1,42 @@
+.skillsPage{
+   
+    min-height: 50vh;
+    border-bottom: 2px dashed white;
+    
+    
+    
+}
+.skillsPage h2{
+    font-weight: 900;
+}
+.SkillsIcon{
+    height: 2rem;
+}
+.name-bg{
+    background: linear-gradient(#c206c2,#c206c2 );
+    opacity: 0.6;
+    transition: 0.3s ease all;
+}
+.name-bg:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+@media (max-width: 991.98px) {
+
+    .skillsPage h2{
+        font-size: 2rem;
+    }
+    
+}
+@media (max-width: 767.98px) {
+    #skills{
+        padding-left: 1.5rem!important;
+        padding-right: 1.5rem!important;
+    }
+    .mqskilssnopad{
+            padding-left: 0!important;
+            padding-right: 0!important;
+    }
+    
+    
+}

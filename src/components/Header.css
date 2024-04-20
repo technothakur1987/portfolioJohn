@@ -1,0 +1,70 @@
+.header{
+    min-height: 10vh;
+    position: fixed;
+    width: 100%;
+    z-index: 9997;
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+.fa-bars{
+    transition: 0.3s ease-in-out all;
+}
+.fa-bars:hover{
+    cursor: pointer;
+    color: rgb(128, 0, 128);
+    
+}
+.sidenav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 0;
+    background: linear-gradient( rgb(71, 3, 71), black,);
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 9998;
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+.sidenav.show {
+    width: 25vw;
+}
+.fa-xmark{
+    transition: 0.3s ease;
+}
+.fa-xmark:hover{
+    cursor: pointer;
+    color: #c206c2;
+}
+.hoverul li
+{
+    transition: 0.3s ease;
+    text-transform: uppercase;
+}
+.hoverul li:hover{
+    cursor: pointer;
+    color: #c206c2;
+}
+
+.sidenav.hide {
+    width: 0;
+}
+
+@media (max-width: 991.98px) {
+    .sidenav.show {
+        width: 70vw;
+    }
+    .mqulPaddingLeft{
+        padding-left: 1.5rem!important;
+    }
+}
+@media (max-width: 767.98px) {
+    .sidenav.show {
+        width: 70vw;
+    }
+    .mqulPaddingLeft{
+        padding-left: 1.5rem!important;
+    }
+    
+}

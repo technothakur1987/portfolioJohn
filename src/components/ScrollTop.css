@@ -1,0 +1,16 @@
+.scroll-top{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: white;
+    height:2rem;
+    width: 2rem;
+    color: #c206c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.scroll-top:hover{
+    cursor: pointer;
+}

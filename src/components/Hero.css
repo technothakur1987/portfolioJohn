@@ -1,0 +1,195 @@
+:root {
+}
+
+#hero {
+    min-height: 100vh;
+    padding-top: 10vh;
+    background: linear-gradient(#290129, rgb(71, 3, 71), rgb(41, 1, 41));
+    width: 100%;
+    overflow-y: hidden;
+    background: url('https://i.ibb.co/5r49jfh/globebg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.globewrapper {
+    background: url('https://i.ibb.co/5r49jfh/globebg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    padding: 5vh 2rem 2rem 2rem;
+    width: 100%;
+    padding-left: calc(90vw - 500px);
+    transform: rotate(5deg);
+}
+
+.textDiv {
+    color: white;
+    min-height: 100vh;
+    padding-top: 10vh;
+    padding: 10vh 2rem 2rem 2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 50vw;
+    z-index: 9996;
+}
+
+.textDiv h1 span {
+    color: #c206c2;
+    font-weight: 900;
+}
+
+.textDiv h3 {
+    color: #c206c2;
+}
+
+.textDiv p span {
+    color: #c206c2;
+    font-weight: 900;
+}
+
+.dot1 {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    z-index: 9996;
+    top: 10vh;
+    left: 50%;
+    transform: translate(50%, 50%);
+    background: url('https://i.ibb.co/5r49jfh/globebg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dot2 {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    z-index: 9996;
+    top: 15vh;
+    left: 15vw;
+    background: url('https://i.ibb.co/5r49jfh/globebg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dot3 {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    z-index: 9996;
+    bottom: 10vh;
+    left: 30%;
+    transform: translate(50%, 50%);
+    background: url('https://i.ibb.co/5r49jfh/globebg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*media Queries*/
+
+@media (max-width: 991.98px) {
+    #hero {
+        min-height: 50vh !important;
+        max-height: 70vh !important;
+        padding-top: 10vh;
+        background: linear-gradient(#290129, rgb(71, 3, 71), rgb(41, 1, 41));
+        width: 100%;
+        overflow-y: hidden;
+        background: url('https://i.ibb.co/5r49jfh/globebg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden!important;
+    }
+    .globewrapper {
+       display: none;
+    }
+    .textDiv {
+        color: white;
+        min-height: 50vh !important;
+        max-height: 70vh !important;
+        padding-top: 10vh;
+        min-width: 100vw!important;
+             max-width: 100vw!important;
+        text-align: center;
+        font-size: larger;
+        align-items: center!important;
+        overflow-x: hidden;
+    }
+    .textDiv h1 span {
+        font-size: 3.1rem;
+    }
+
+    .textDiv h3 {
+        font-size: 1.1rem;
+       
+    }
+
+    .textDiv p span {
+        font-size: 2rem;
+        margin-top: 2vh;
+    }
+    .dot1,
+    .dot2,
+    .dot3 {
+        display: none;
+    }
+}
+@media (max-width: 767.98px) {
+    .dot1,
+    .dot2,
+    .dot3 {
+        display: none;
+    }
+    #hero {
+        min-height: 100vh !important;
+        padding-top: 0vh!important;
+        max-height: 100vh !important;
+        font-size: larger;
+       
+
+    }
+
+    .globewrapper {
+        display: none;
+    }
+
+    .textDiv {
+        color: white;
+        min-height: 100vh !important;
+        max-height: 100vh !important;
+        padding-top: 10vh;
+        padding: 20vh 2rem 2rem 2rem;
+
+        max-width: 100vw;
+        text-align: center;
+        font-size: larger;
+        align-items: start!important;
+        overflow-x: hidden;
+        overflow-y: hidden!important;
+    }
+    .textDiv h1 span {
+        font-size: 3.1rem;
+    }
+
+    .textDiv h3 {
+        font-size: 1.1rem;
+        margin-left: 0rem!important;
+    }
+
+    .textDiv p span {
+        font-size: 2rem;
+        margin-top: 2vh;
+    }
+}

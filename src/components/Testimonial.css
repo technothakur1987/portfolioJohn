@@ -1,0 +1,62 @@
+.testinomialsPage{
+    background: linear-gradient( rgb(41, 1, 41),rgb(71, 3, 71));
+    min-height: 100vh;
+    border-bottom: 2px dashed white;
+}
+.testinomialsPage h2{
+    font-weight: 900;
+    color: white;
+
+}
+.testinomialsPage h2 span{
+    color: #c206c2;
+}
+.testinomialsPage .carousel-caption {
+    
+    color: white!important;
+    height: 60vh;
+}
+.testinomialsPage .carousel-inner {
+    height: 60vh;
+    color: white!important;
+   
+}
+.testinomialsPage .img-fluid{
+    height: 2rem!important;
+}
+.testinomialsPage .name{
+    color: #c206c2;
+    font-weight: 900;
+}
+
+
+/*Media Queries*/
+@media (max-width: 991.98px) {
+    .testinomialsPage{
+        background: linear-gradient( rgb(41, 1, 41),rgb(71, 3, 71));
+        min-height: 50vh!important;
+        border-bottom: 2px dashed white;
+    }
+    
+}
+
+@media (max-width: 767.98px) {
+    .testinomialsPage h2{
+       font-size: 2rem!important;
+    
+    }
+    .testinomialsPage .carousel-caption {
+    
+        color: white!important;
+        height: 60vh;
+    }
+    .testinomialsPage .carousel-inner {
+        height:100vh;
+        color: white!important;
+       
+    }
+    .carousel-indicators{
+        display: none;
+    }
+
+}

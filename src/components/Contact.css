@@ -1,0 +1,56 @@
+.contactPage{
+    min-height: 100vh;
+    background: linear-gradient( rgb(71, 3, 71),rgb(71, 1, 71));
+}
+.contactPage form{
+    border: 1px solid #c206c2;
+    border-radius: 10px;
+}
+.contactPage input::placeholder{
+    color: white;
+}
+.contactPage input{
+    background: linear-gradient( rgb(71, 3, 71),rgb(71, 1, 71));
+    color: white;
+    transform: 0.3s ease;
+}
+.contactPage textarea{
+    background: linear-gradient( rgb(71, 3, 71),rgb(71, 1, 71));
+    color: white;
+    height: 25vh;
+    transform: 0.3s ease;
+}
+.contactPage input:active{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.contactPage input:focus{
+    border-color: #c206c2;
+    outline: none;
+    box-shadow: none;
+}.contactPage textarea:focus{
+    border-color: #c206c2;
+    outline: none;
+    box-shadow: none;
+}
+
+/*mediaQueries*/
+@media (max-width: 991.98px) { 
+    .contactPage{
+        min-height: 0vh;
+        
+}
+
+}
+
+@media (max-width: 767.98px) {
+
+    .mqh2{
+        font-size: 2.0rem!important;
+    }
+    .mxmq0{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+}

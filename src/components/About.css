@@ -1,0 +1,78 @@
+.aboutpage{
+    
+    background: linear-gradient(rgb(41, 1, 41), rgb(71, 3, 71), rgb(41, 1, 41));
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+    overflow-x: hidden;
+    min-height: 100vh;
+    
+    
+}
+.aboutpage .img-fluid{
+    height: 50vh;
+   
+    box-shadow: 0px 0px 5px 1px white;
+}
+.abouttext h2{
+    color: #c206c2;
+    font-weight: 900;
+}
+.colorpink{
+    color: #c206c2;
+}
+.hoverpink{
+    transition: 0.3s linear ;
+}
+.hoverpink:hover{
+    color: #c206c2!important;
+}
+
+/*media Queries*/
+@media (max-width: 991.98px) {
+    .aboutpage{
+    
+        background: linear-gradient(rgb(41, 1, 41), rgb(71, 3, 71), rgb(41, 1, 41));
+        border-top: 2px dashed white;
+        border-bottom: 2px dashed white;
+        overflow-x: hidden;
+        min-height: 50vh;
+        
+        
+    }
+    .aboutpage .img-fluid{
+        height: 30vh;
+        width: 100%;
+       
+        box-shadow: 0px 0px 5px 1px white;
+        margin-bottom: 0vh;
+    }
+}
+
+@media (max-width: 767.98px) {
+.mqpx2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+    .aboutpage .img-fluid{
+        height: 50vh;
+        width: 100%;
+       
+        box-shadow: 0px 0px 5px 1px white;
+        margin-bottom: 5vh;
+    }
+
+    .abouttext h2{
+        color: #c206c2;
+        font-weight: 900;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .mqdesc{
+        text-align: justify;
+        margin-bottom: 1rem;
+        font-size: 1.25rem!important;
+    }
+    .mqlinks{
+       transform: translateX(20%)!important;
+    }
+}

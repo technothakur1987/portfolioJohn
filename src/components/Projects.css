@@ -1,0 +1,55 @@
+.projectpage{
+    background: linear-gradient( rgb(71, 3, 71),rgb(41, 1, 41));
+   
+}
+.projectpage h2{
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+.projectpage h2 span{
+    color: #c206c2!important;
+    font-weight: 900;
+}
+.projectpage .card-title{
+    color: #c206c2!important;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.projectpage .card-body{
+    background: linear-gradient( rgb(71, 3, 71),rgb(41, 1, 41));
+}
+.hoverClass:hover .card{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 3px #c206c2;
+}
+
+.hoverClass .card{
+    transition: 0.3s ease;
+}
+.hoverClass:hover .card-title{
+   color: white!important;
+}
+/*Media Queries*/
+@media (max-width: 991.98px) {
+
+    
+}
+
+@media (max-width: 767.98px) {
+    .mqpx0{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .projectrow{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .projectpage h2,.projectpage .card-title,.mqProjectModalTitle{
+       font-size: 1.5rem!important;
+    }
+    .mqProjectDesc{
+        font-size: 1.25rem!important;
+        text-align: justify;
+    }
+}

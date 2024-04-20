@@ -1,0 +1,52 @@
+.timelineSection{
+    background: linear-gradient( rgb(71, 3, 71),rgb(41, 1, 41));
+    border-bottom: 2px dashed white;
+    min-height: 100vh;
+}
+.timelineSection h2{
+    color: white;
+    font-weight: 900;
+}
+.pink{
+    color: #c206c2!important;
+}
+.accordion{
+    --bs-accordion-bg: rgb(71, 3, 71);
+    --bs-accordion-border-color: #c206c2;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #8d088d;
+   
+    color: white;
+    --bs-accordion-btn-bg: rgb(71, 3, 71);
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+    --bs-accordion-active-bg: #c206c2;
+}
+
+/*Media Queries*/
+@media (max-width: 991.98px) {
+    .timelineSection{
+        background: linear-gradient( rgb(41, 1, 41),rgb(71, 3, 71));
+        min-height: 50vh!important;
+        border-bottom: 2px dashed white;
+    }
+    
+}
+
+@media (max-width: 767.98px) {
+    .timelineSection{
+        background: linear-gradient( rgb(71, 3, 71),rgb(41, 1, 41));
+        border-bottom: 2px dashed white;
+        min-height: 50vh;
+    }
+    .timelineSection h2{
+        font-size: 2.5rem;
+    }
+    .accordion-button {
+        font-size: 1.0rem;
+    }
+    .timelineSection .row{
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+}
